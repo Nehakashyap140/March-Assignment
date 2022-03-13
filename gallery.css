@@ -1,0 +1,43 @@
+body
+{
+    
+   
+    cursor: pointer;
+}
+.div-image1 img,.div-image2 img,.div-image3 img,.div-image4 img,.div-image5 img,.div-image6 img,.div-image7 img,.div-image8 img
+{
+    width:300px;
+    height:200px;
+    margin-top: 10px;
+  
+}
+.main1
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    row-gap:20px;
+    column-gap: 20px;
+}
+.d-none
+{
+    display: none;
+}
+.subdiv-image1,.subdiv-image2.subdiv-image3,.subdiv-image4,.subdiv-image5,.subdiv-image6,.subdiv-image7,.subdiv-image8
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    cursor: pointer;
+}
+.cross
+{
+    position: relative;
+    top:-690px;
+    left: 340px;
+    background:white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+    height: 10vh;
+}
