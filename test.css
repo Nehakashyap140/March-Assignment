@@ -1,0 +1,81 @@
+section{
+    .weather-card{
+        margin-top: 3rem;
+        text-align: start;
+        box-shadow:0px  1px 4px gray ;
+        border: 1px solid #C65D7B;
+        box-shadow:0px  2px 8px gray ;
+        border: 1px solid #990c34;
+        font-weight: bold;
+        background-color: #F68989;
+    
+    }
+    .weather-card > p{
+        padding-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 0.5rem;
+    
+        border-bottom: 1px solid #874356;
+        /* border-bottom: 1px solid #874356; */
+        /* margin-top: -10p; */
+    
+    
+    }
+    p:nth-child(6){
+    .weather-card  > img{
+         display: block; 
+        height: 100px;
+        /* width: 100px; */
+        text-align: center;
+        background-position: center;
+        transform: translateY(-30%);
+        padding-left: 6rem;
+        padding-right: 3rem;
+    
+    } 
+    p:nth-child(7){
+        border-bottom: none;
+    }
+    p:first-child{
+    @@ -71,4 +84,39 @@ p:first-child{
+    }
+    .hide{
+        display: none;
+    }
+    header > div{
+        /* border: 1px solid black; */
+    } 
+    header > div>input{
+        padding: 13px;
+        width: 30%;
+         outline: transparent;
+        /* border-color:#F68989 ;  */
+    }
+    header > div > button{
+        padding: 11.5px;
+        transform: translate(-5px,1.5px);
+        background-color: #da0c46;
+        outline: none;
+        border-color: transparent;
+        cursor: pointer;
+        /* border-color: transparent; */
+    
+    }
+    .show_popup > div{
+        /* border: 1px solid black; */
+    }
+    .show_popup > div >  input{
+        padding: 13px;
+        outline: transparent;
+        width: 20%;
+    }
+    .show_popup > div > button{
+        padding: 12.5px;
+        transform: translate(-5px,0.5px);
+        background-color: #da0c46;
+        outline: none;
+        border-color: transparent;
+        cursor: pointer;
+    } 
